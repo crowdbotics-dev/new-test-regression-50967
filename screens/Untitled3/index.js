@@ -1,3 +1,4 @@
+import { Text } from "react-native";
 import { Switch } from "react-native";
 import { ActivityIndicator } from "react-native";
 import React from "react";
@@ -10,7 +11,7 @@ const Untitled3 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><ActivityIndicator style={styles.KTQXAUnp}></ActivityIndicator><ActivityIndicator style={styles.tlcWhHFZ}></ActivityIndicator><Switch style={styles.fZnIRdiV} value="test"></Switch></ScrollView>
+    }}><ActivityIndicator style={styles.KTQXAUnp}></ActivityIndicator><ActivityIndicator style={styles.tlcWhHFZ}></ActivityIndicator><Switch style={styles.fZnIRdiV} value="test"></Switch><Text style={styles.jgZGAivW}>Lorem ipsum…</Text></ScrollView>
     </SafeAreaView>;
 };
 
@@ -50,6 +51,13 @@ const styles = StyleSheet.create({
     left: 78,
     top: 90,
     transform: "rotate(10deg)"
+  },
+  jgZGAivW: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
   }
 });
 export default Untitled3;
