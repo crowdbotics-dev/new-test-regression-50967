@@ -1,6 +1,3 @@
-import { Text } from "react-native";
-import { Switch } from "react-native";
-import { ActivityIndicator } from "react-native";
 import React from "react";
 import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
@@ -11,13 +8,14 @@ const Untitled3 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><ActivityIndicator style={styles.KTQXAUnp}></ActivityIndicator><ActivityIndicator style={styles.tlcWhHFZ}></ActivityIndicator><Switch style={styles.fZnIRdiV} value="test"></Switch><Text style={styles.jgZGAivW}>Lorem ipsum…</Text></ScrollView>
+    }}>Lorem ipsum…</ScrollView>
     </SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
   safeArea: {
-    height: '100%'
+    height: '100%',
+    backgroundColor: "#3d7d2e"
   },
   VjGqrocm: {
     backgroundColor: "#ffffff",
@@ -58,6 +56,20 @@ const styles = StyleSheet.create({
     lineHeight: 14,
     fontSize: 14,
     borderRadius: 0
+  },
+  WSJWxuqk: {
+    width: 107,
+    height: 62,
+    position: "absolute",
+    left: 64,
+    top: 204
+  },
+  qGsLzoBn: {
+    width: 107,
+    height: 62,
+    position: "absolute",
+    left: 61,
+    top: 167
   }
 });
 export default Untitled3;
