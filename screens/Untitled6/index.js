@@ -9,7 +9,7 @@ const Untitled6 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><TextInput style={styles.CuftisOi} value="Testing test test"></TextInput></ScrollView>
+    }}><TextInput style={styles.CuftisOi} value="" placeholder=""></TextInput></ScrollView>
     </SafeAreaView>;
 };
 
